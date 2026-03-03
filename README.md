@@ -59,11 +59,11 @@ python main.py
 
 ## Screenshots
 
-![Main Window](https://github.com/user-attachments/assets/e9c14ace-51c8-4f19-b346-a650ccc870ed)
+![Main Window](https://github.com/user-attachments/assets/5f38229c-4cc9-4adf-94e0-c0afb19fcdbb)
 
 ![View Window](https://github.com/user-attachments/assets/47f7da1a-8cf1-41ff-87e7-0429fd9910c5) 
 
-![Edit Window](https://github.com/user-attachments/assets/7f6b91a4-bb63-4b21-9750-6c2f5d531989)
+![Edit Window](https://github.com/user-attachments/assets/5a24479c-8e9b-4580-976e-289c7a44e674)
 
 ---
 
