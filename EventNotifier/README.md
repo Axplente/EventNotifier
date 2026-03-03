@@ -59,15 +59,11 @@ python main.py
 
 ## Screenshots
 
-![Main Window](https://github.com/user-attachments/assets/edbd7946-1678-42d7-8019-c765ff2239d5)
+![Main Window](https://github.com/user-attachments/assets/e9c14ace-51c8-4f19-b346-a650ccc870ed)
 
-![View Window](https://github.com/user-attachments/assets/f7cf1313-87aa-4e94-b984-bdc2552c5ba0) 
+![View Window](https://github.com/user-attachments/assets/47f7da1a-8cf1-41ff-87e7-0429fd9910c5) 
 
-![Edit Window](https://github.com/user-attachments/assets/258572d0-ef2c-44e2-980c-0976cfa96978)
-
-
-
-*Replace placeholders with your actual screenshots for clarity*
+![Edit Window](https://github.com/user-attachments/assets/7f6b91a4-bb63-4b21-9750-6c2f5d531989)
 
 ---
 
