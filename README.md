@@ -4,29 +4,11 @@ A lightweight desktop tool built with Python and PySide6 that helps you remember
 
 ---
 
-## Table of Contents
-
-* [Overview](#overview)
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Installation & Usage](#installation--usage)
-* [Requirements](#requirements)
-* [Downloads](#downloads)
-* [Prebuilt Executable](#prebuilt-executable)
-* [Building from Source](#building-from-source)
-* [Screenshots](#screenshots)
-* [What I Learned](#what-i-learned)
-* [Maintenance](#maintenance)
-* [License](#license)
-* [About Me](#about-me)
-
----
-
 ## Overview
 
-Event Notifier was created to solve a simple but personal problem: forgetting important dates. Since I spend most of my time on my computer, I built this tool to manage reminders directly on my desktop.
+Event Notifier is a simple desktop reminder application designed to run quietly in the background and notify you about important dates.
 
-This project was my first public release and a learning experience in building and packaging a full Python GUI application.
+It was built as a personal learning project while exploring GUI development and Windows desktop packaging with Python.
 
 ---
 
@@ -34,11 +16,11 @@ This project was my first public release and a learning experience in building a
 
 * Modern GUI built with PySide6
 * System tray + popup notifications
-* Local persistent storage (JSON)
-* Automatic startup mode (`--notify`)
+* Local JSON-based storage
+* Background mode (`--notify`)
 * Custom reminder offsets (days before events)
 * Yearly recurring events
-* Flexible skip-day logic
+* Lightweight and fast
 
 ---
 
@@ -46,7 +28,7 @@ This project was my first public release and a learning experience in building a
 
 * Python 3.x
 * PySide6 (Qt for Python)
-* Standard libraries: os, json, datetime, uuid, time, winreg
+* Standard libraries (os, json, datetime, uuid, time, winreg)
 * Windows platform
 
 ---
@@ -55,45 +37,27 @@ This project was my first public release and a learning experience in building a
 
 ### 1. Clone the repository
 
-```bash
+```bash id="clone1"
 git clone https://github.com/Axplente/EventNotifier.git
 cd EventNotifier
 ```
 
-### 2. Set up environment
+### 2. Install dependencies
 
-```bash
-python -m venv venv
-venv\Scripts\activate
+```bash id="install1"
 pip install -r requirements.txt
 ```
 
 ### 3. Run the app
 
-```bash
+```bash id="run1"
 python main.py
 ```
 
 ### Background mode
 
-```bash
+```bash id="bg1"
 python main.py --notify
-```
-
----
-
-## Requirements
-
-All dependencies are listed in:
-
-```text
-requirements.txt
-```
-
-Install them using:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -107,7 +71,7 @@ https://github.com/Axplente/EventNotifier/releases/latest
 
 ## Prebuilt Executable
 
-A prebuilt Windows executable is available in the Releases section.
+A ready-to-use Windows executable is available in the Releases section.
 
 ### ⚠️ Windows SmartScreen Warning
 
@@ -115,54 +79,38 @@ Because the executable is not digitally signed, Windows may show:
 
 > Windows protected your PC
 
-This is normal for unsigned open-source software and does not indicate malware.
+This is normal for unsigned open-source applications and does not indicate malware.
 
-The full source code is available in this repository for review.
+You can safely run the program or inspect the source code.
 
 ---
 
 ## Building from Source
 
-### Install dependencies
-
-```bash
+```bash id="build1"
 pip install -r requirements.txt
 pip install pyinstaller
 ```
 
-### Build executable
-
-```bash
+```bash id="build2"
 pyinstaller --onefile --windowed --icon=assets/Calendar.ico --add-data "assets;assets" --name EventNotifier main.py
 ```
 
-The executable will be created in:
+Output:
 
-```text
+```text id="output1"
 dist/EventNotifier.exe
 ```
 
 ---
 
-## Screenshots
-
-(Add screenshots here)
-
----
-
 ## What I Learned
 
-* Building GUI applications with PySide6
-* Event-driven programming
-* Local data storage with JSON
-* Windows system integration
-* Packaging Python apps with PyInstaller
-
----
-
-## Maintenance
-
-Open to issues and feature requests.
+* Building GUI apps with PySide6
+* Windows notifications and system tray integration
+* Persistent JSON data handling
+* Structuring Python projects
+* Packaging apps with PyInstaller
 
 ---
 
@@ -174,6 +122,5 @@ MIT License
 
 ## About Me
 
-**Axplente** — Developer from Bavaria, Germany
-
+Axplente — Developer from Bavaria, Germany
 GitHub: https://github.com/Axplente
